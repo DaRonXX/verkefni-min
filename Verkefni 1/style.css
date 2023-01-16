@@ -1,11 +1,11 @@
 body{
-    background: rgb(255, 202, 26);
-    color:rgba(12, 115, 189, 0.425);
+    background: rgb(249, 247, 242);
+    color:rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1{
-    color: rgb(175, 34, 211);
+    color: rgb(204, 0, 255);
     font-style: oblique;
     font-size: 35px;
 }
