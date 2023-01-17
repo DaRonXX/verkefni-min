@@ -1,7 +1,14 @@
 body{
+    max-width: 70%;
+    margin: 1em auto;
+    border: 10px solid #f01800;
+    padding: 32px;
+    
     background: rgb(249, 247, 242);
     color:rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
 }
 
 h1{
@@ -10,10 +17,15 @@ h1{
     font-size: 35px;
 }
 
+.blue{
+    color: blue;
+}
+
 .TxT{
     color:aqua
 }
 
 .feitletra{
+    color: rgb(224, 13, 13);
     font-weight: lighter;
 }
