@@ -1,0 +1,20 @@
+div{
+    margin: 3px;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.tveir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fjorir_dalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
