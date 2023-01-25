@@ -1,0 +1,46 @@
+body{
+    max-width: 70%;
+    margin: 1em auto;
+    border: 1px solid #000000;
+    padding: 32px;
+    
+    background: rgb(249, 247, 242);
+    color:rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.padding{
+    padding: 8px;
+}
+
+div{
+    margin: 6px;
+    padding: 18px;
+    border: 1px solid black;
+}
+
+
+
+
+
+.trir_dalkar2{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+
+.blue{
+    color: blue;
+}
+
+.feitletra{
+    color: rgb(224, 13, 13);
+    font-weight: lighter;
+}
+
+blockquote{
+    border: 1px solid #000000;
+    padding: 8px;
+}
