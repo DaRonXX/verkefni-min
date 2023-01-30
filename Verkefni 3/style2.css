@@ -4,19 +4,76 @@ div{
     border: 1px dashed black;
 }
 
-.tveir_dalkar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+@media screen and (min-width:500px){
+
+    .tveir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.trir_dalkar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+
+
+
+@media screen and (min-width:200px){
+
+    .trir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 }
 
-.fjorir_dalkar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+@media screen and (min-width:500px){
+
+    .trir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
 }
+
+@media screen and (min-width:700px){
+
+    .trir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (min-width:200px){
+
+    .fjorir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (min-width:500px){
+
+    .fjorir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+
+@media screen and (min-width:700px){
+
+    .fjorir_dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
 
 
