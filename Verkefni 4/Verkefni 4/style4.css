@@ -15,19 +15,66 @@
 
 }
 
+.dalkar3{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+
+
+
+
+.a{
+    grid-column: a;
+}
+
+.b{
+    grid-column: a;
+}
+
+.c{
+    grid-column: a;
+}
+
+
+@media screen and (min-width:899px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas:
+        "a a"
+        "b c";
+    }
+
+
+}
+
+@media screen and (min-width:930px){
+
+    .dalkar3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+}
+
 
 
 header{
-    background: #89f00c;
+    background: #703a03;
     margin: 0;
     padding: 30px;
     font-size: 100px;
-    color: rgb(204, 0, 255);
+    color: rgb(44, 29, 8);
     font-style: oblique;
 }
 
 section{
-    background: #0f799f;
+    background: #b96f21;
     padding: 32px;
     margin: 0 auto;
 }
@@ -46,7 +93,7 @@ body{
     
     background: rgb(249, 247, 242);
     color:rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: serif, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue';
 
 
 }
