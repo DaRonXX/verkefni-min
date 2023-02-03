@@ -4,21 +4,58 @@
     grid-template-columns: 1fr ;
 }
 
-
-@media screen and (min-width:500px){
+@media screen and (min-width:700px){
 
     .dalkar{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-
 }
 
-.dalkar3{
+.dalkar2{
     display: grid;
     grid-template-columns: 1fr ;
 }
+
+
+@media screen and (min-width:600px){
+
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "x x"
+        "y z";
+    }
+
+}
+
+@media screen and (min-width:700px){
+
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "x y"
+        "x z";
+    }
+
+}
+
+.x{
+    grid-column: x;
+}
+
+.y{
+    grid-column: y;
+}
+
+.z{
+    grid-column: z;
+}
+
+
 
 
 
@@ -26,14 +63,39 @@
 
 .a{
     grid-column: a;
+    text-align: center;
 }
 
 .b{
-    grid-column: a;
+    grid-column: b;
+    text-align: center;
 }
 
 .c{
-    grid-column: a;
+    grid-column: c;
+    text-align: center;
+}
+
+.d{
+    grid-column: d;
+    text-align: center;
+}
+
+
+@media screen and (min-width:500px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d";
+    }
+
 }
 
 
@@ -45,20 +107,23 @@
         grid-template-columns: 1fr 1fr;
 
         grid-template-areas:
-        "a a"
-        "b c";
+        "a b"
+        "c d";
     }
-
 
 }
 
-@media screen and (min-width:930px){
+
+@media screen and (min-width:940px){
 
     .dalkar3{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
 
+        grid-template-areas:
+        "a b c d";
+    }
 
 }
 
@@ -74,14 +139,14 @@ header{
 }
 
 section{
-    background: #b96f21;
+    background: linear-gradient(#b96f21,rgb(110, 60, 3));
     padding: 32px;
     margin: 0 auto;
 }
 
 
 hr{
-    background: #000000;
+    background: #ffffff;
 }
 
 
@@ -112,3 +177,11 @@ body{
     color: rgb(224, 13, 13);
     font-weight: lighter;
 }
+
+
+
+
+
+
+
+
