@@ -13,13 +13,19 @@
 
 }
 
-.dalkar2{
-    display: grid;
-    grid-template-columns: 1fr ;
+@media screen and (min-width:500px){
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+        "x"
+        "y"
+        "z";
+    }
+
 }
 
-
-@media screen and (min-width:600px){
+@media screen and (min-width:850px){
 
     .dalkar2{
         display: grid;
@@ -31,14 +37,13 @@
 
 }
 
-@media screen and (min-width:700px){
+@media screen and (min-width:1000px){
 
     .dalkar2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        "x y"
-        "x z";
+        "x y z";
     }
 
 }
