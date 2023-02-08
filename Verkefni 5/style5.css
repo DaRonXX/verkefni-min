@@ -1,0 +1,67 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{    
+    font-family: serif, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue';
+    background: linear-gradient(#0f66a4,rgb(130, 27, 194) ,rgb(158, 16, 61));
+}
+
+header{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 10vw
+}
+
+.dalkar2{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width:940px){
+
+    .dalkar2{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+.blue{
+    color: rgb(3, 16, 51);
+}
+
+
+.dalkar3{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width:540px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width:940px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+
+
