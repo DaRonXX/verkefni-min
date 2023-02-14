@@ -1,0 +1,193 @@
+
+@import url(https://fonts.google.com/specimen/Bitter?preview.text=Dwarves&preview.text_type=custom);
+.dalkar{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+@media screen and (min-width:700px){
+
+    .dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width:500px){
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+        "x"
+        "y"
+        "z";
+    }
+
+}
+
+@media screen and (min-width:850px){
+
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "x x"
+        "y z";
+    }
+
+}
+
+@media screen and (min-width:1000px){
+
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "x y z";
+    }
+
+}
+
+.x{
+    grid-column: x;
+}
+
+.y{
+    grid-column: y;
+}
+
+.z{
+    grid-column: z;
+}
+
+
+
+
+
+
+
+.a{
+    grid-column: a;
+    text-align: center;
+}
+
+.b{
+    grid-column: b;
+    text-align: center;
+}
+
+.c{
+    grid-column: c;
+    text-align: center;
+}
+
+.d{
+    grid-column: d;
+    text-align: center;
+}
+
+
+@media screen and (min-width:500px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d";
+    }
+
+}
+
+
+@media screen and (min-width:899px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas:
+        "a b"
+        "c d";
+    }
+
+}
+
+
+@media screen and (min-width:940px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        grid-template-areas:
+        "a b c d";
+    }
+
+}
+
+
+
+header{
+    background: #703a03;
+    margin: 0;
+    padding: 30px;
+    font-size: 100px;
+    color: rgb(44, 29, 8);
+    font-style: oblique;
+}
+
+section{
+    background: linear-gradient(#b96f21,rgb(110, 60, 3));
+    padding: 32px;
+    margin: 0 auto;
+}
+
+
+hr{
+    background: #ffffff;
+}
+
+
+body{
+    max-width: 70%;
+    margin: 1em auto;
+    border: 1px solid #000000;
+    padding: 0spx;
+    
+    background: rgb(249, 247, 242);
+    color:rgb(0, 0, 0);
+    font-family: serif, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue';
+
+
+}
+
+
+
+.blue{
+    color: blue;
+}
+
+.TxT{
+    color:aqua
+}
+
+.feitletra{
+    color: rgb(224, 13, 13);
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
