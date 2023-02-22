@@ -1,0 +1,310 @@
+
+@import url(https://fonts.google.com/specimen/Bitter?preview.text=Dwarves&preview.text_type=custom);
+.dalkar{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+@media screen and (min-width:700px){
+
+    .dalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width:500px){
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+        "x"
+        "y"
+        "z";
+    }
+
+}
+
+@media screen and (min-width:850px){
+
+    .dalkar2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "x x"
+        "y z";
+    }
+
+}
+
+
+
+.x{
+    grid-column: x;
+}
+
+.y{
+    grid-column: y;
+}
+
+.z{
+    grid-column: z;
+}
+
+audio{
+    padding: 14px;
+}
+
+.a{
+    grid-column: a;
+    text-align: center;
+}
+
+.b{
+    grid-column: b;
+    text-align: center;
+}
+
+.c{
+    grid-column: c;
+    text-align: center;
+}
+
+.d{
+    grid-column: d;
+    text-align: center;
+}
+
+
+@media screen and (min-width:500px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d";
+    }
+
+}
+
+
+@media screen and (min-width:899px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas:
+        "a b"
+        "c d";
+    }
+
+}
+
+
+@media screen and (min-width:940px){
+
+    .dalkar3{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        grid-template-areas:
+        "a b c d";
+    }
+
+}
+
+
+
+header{
+    background: #703a03;
+    margin: 0;
+    padding: 30px;
+    font-size: 100px;
+    color: rgb(44, 29, 8);
+    font-style: oblique;
+}
+
+section{
+    background: linear-gradient(#b96f21,rgb(110, 60, 3));
+    padding: 32px;
+    margin: 0 auto;
+}
+
+
+hr{
+    background: #ffffff;
+}
+
+
+body{
+    max-width: 70%;
+    margin: 1em auto;
+    border: 1px solid #000000;
+    padding: 0spx;
+    
+    background: rgb(249, 247, 242);
+    color:rgb(0, 0, 0);
+
+
+
+}
+
+
+
+.blue{
+    color: blue;
+}
+
+.TxT{
+    color:aqua
+}
+
+.feitletra{
+    color: rgb(224, 13, 13);
+    font-weight: lighter;
+}
+
+
+
+
+.up{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    
+    width: 50px;
+    height: 50px;
+    background: rgb(236, 193, 193);
+    border-radius: 50px;
+
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: rgb(166, 95, 23);
+}
+
+.nav a{
+    display: grid;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(216, 153, 18);
+}
+
+
+
+.iframe-rwd  {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    }
+
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.embed-container{
+    position: relative; 
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+tbody tr:nth-child(odd){
+    background: lightblue;
+}
+
+tbody tr:nth-child(even){
+    background: rgb(75, 75, 192);
+}
+
+
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
+thead{
+    background: rgb(101, 13, 243);
+}
+
+
+
+@media screen and (max-width:600px) {
+    table{
+        width: 100%;
+    }
+
+    thead{
+        display: none;
+    }
+
+    td{
+        display: block;
+        text-align: right;
+        
+    }
+
+    tr{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    td::before{
+        content: attr(data);
+        float: left;
+
+    }
+}
+
+form{
+    background: linear-gradient(#ff9d00, #ff6600)
+    
+}
